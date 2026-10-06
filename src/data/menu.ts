@@ -1,0 +1,58 @@
+import type { Product } from "@/types";
+
+export const menu: Product[] = [
+  {
+    id: "hamburguesa-clasica",
+    name: "Hamburguesa clásica",
+    description: "Carne de res, queso, lechuga, tomate y cebolla.",
+    price: 85,
+    emoji: "🍔",
+    category: "hamburguesas",
+    available: true,
+  },
+  {
+    id: "hamburguesa-especial",
+    name: "Hamburguesa especial",
+    description: "Carne de res, queso, tocino, lechuga y salsa especial.",
+    price: 110,
+    emoji: "🍔",
+    category: "hamburguesas",
+    available: true,
+  },
+  {
+    id: "combo-clasico",
+    name: "Combo clásico",
+    description: "Hamburguesa clásica, papas y refresco.",
+    price: 135,
+    emoji: "🍔🍟🥤",
+    category: "combos",
+    available: true,
+  },
+  {
+    id: "papas-grandes",
+    name: "Papas grandes",
+    description: "Papas fritas crujientes.",
+    price: 45,
+    emoji: "🍟",
+    category: "papas",
+    available: true,
+  },
+  {
+    id: "coca-cola",
+    name: "Coca-Cola",
+    description: "Refresco frío.",
+    price: 20,
+    emoji: "🥤",
+    category: "bebidas",
+    available: true,
+  },
+  {
+    id: "agua",
+    name: "Agua natural",
+    description: "Botella de agua.",
+    price: 15,
+    emoji: "💧",
+    category: "bebidas",
+    available: true,
+  },
+];
